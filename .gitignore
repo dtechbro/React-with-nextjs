@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Production build
+/.next
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode
+.DS_Store
+
+# Next.js build artifacts
+out
+
+# Cache directories
+.cache
+.cache-loader
+
+# Next.js development server files
+.next
+.next/ 
+.next/cache
+.next/server
+.next/build
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

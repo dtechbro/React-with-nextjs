@@ -16,6 +16,11 @@
     <!-- react script to add h1 into the div  -->
     
     <script type="text/jsx">
+        const app = document.getElementById("app")
+
+        function Header({title}) {
+            return <h1>{title ? title : 'Default time'}</h1>
+        }
         function HomePage() {
             const [likes, setLikes] = React.useState(0);
 
